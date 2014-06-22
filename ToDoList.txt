@@ -2,3 +2,4 @@
 [ ] Introduce a mechanism to test the RES AM version. Some cmdlets are only available from specific versions onwards
 [ ] Add support for non-Text module parameters (where possible)
 [ ] Find a solution for RESAM-Init.ps1 script that stays loaded after a Remove-Module (PS v3 issue)
+[ ] Fix times and timezone issues in returned DateTime objects
