@@ -23,7 +23,7 @@ namespace RESAM
   }
 }
 "@
-Add-Type -TypeDefinition $jobStatus -Language CSharpVersion3
+Add-Type -TypeDefinition $jobStatus -Language CSharp
 
 $jobWhatType = @"
 using System;
@@ -38,7 +38,7 @@ namespace RESAM
   }
 }
 "@
-Add-Type -TypeDefinition $jobWhatType -Language CSharpVersion3
+Add-Type -TypeDefinition $jobWhatType -Language CSharp
 
 $jobWhoType = @"
 using System;
@@ -52,7 +52,7 @@ namespace RESAM
   }
 }
 "@
-Add-Type -TypeDefinition $jobWhoType -Language CSharpVersion3
+Add-Type -TypeDefinition $jobWhoType -Language CSharp
 
 $jobParameterType = @"
 using System;
@@ -70,4 +70,4 @@ namespace RESAM
   }
 }
 "@
-Add-Type -TypeDefinition $jobParameterType -Language CSharpVersion3
+Add-Type -TypeDefinition $jobParameterType -Language CSharp
