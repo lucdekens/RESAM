@@ -1,0 +1,3 @@
+[ ] Use Global variables to remember the Dispatcher and the Credentials
+[ ] Introduce a mechanism to test the RES AM version. Some cmdlets are only available from specific versions onwards
+[ ] Add support for non-Text module parameters (where possible)
